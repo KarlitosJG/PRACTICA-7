@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+	{
+		background-color: #818A81;
+		font-family:  Segoe UI Light, Calibri;
+		font-size = 12;
+	}	
+
+ h1
+ 	{
+ 		font-family:  Segoe UI Light, Calibri;
+ 		font-size: 16px;
+ 		color: #D6340E;
+
+ 	}	
+ table 
+ 	{
+ 		width: 100%;
+ 	}		
+ td
+ 	{
+ 		vertical-align: top;
+ 	}
+ ul
+ 	{
+ 		list-style: none;
+ 		margin-top: 0px;
+ 	}
+ 	ul li{
+ 		font-family: Calibri,Georgia,serif;
+ 		font-size:18px;
+ 	}
+ 	ul li a{
+ 		display: block;
+ 		background-color: #333;
+ 		color: #C2450C;
+ 		height: 30px;
+ 		width: 150px;
+ 		padding-left: 10px;
+ 	}
+ 	 ul li a:hover 
+ 	 {
+ 	 	-moz-transform:rotate(-5deg);
+ 	 	-moz-box-shadow:10px 10px 20px 20px #E2EDD6;
+ 	 	-webkit-transform:rotate(-5deg);
+ 	 	-webkit-box-shadow:10px 10px 20px 20px #E2EDD6;
+ 		transform:rotate(4deg);
+ 		box-shadow:10px 10px 20px 20px #E2EDD6;
+ 		margin-left: 10px;
+ 	}
+	table td div{
+		width:500px;
+		height:220px;
+		background-color:#FFED1C;
+		border:3px solid #999999;
+		border-radius:15px 0px 20px 0px;
+		margin:10px;
+		padding:15px;
+		box-shadow:2px 2px 5px #E2EDD6;
+	}
+	.Encabezado{
+		width:2024px;
+		height:100px;
+		background-color:#E2EDD6;
+	}
+	.piepagina{
+		width:2024px;
+		height:100px;
+		background-color:#E2EDD6;
+	}
